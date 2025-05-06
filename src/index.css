@@ -1,0 +1,89 @@
+/* index.css */
+
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e6f7e6; /* Lightest green background */
+    color: black;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Blue Color Theme */
+  :root {
+    --primary-blue: #0066cc; /* Blue color */
+    --light-blue: #99ccff; /* Lighter blue for accents */
+    --dark-blue: #004d99; /* Darker blue for buttons or highlights */
+    --background-color: #e6f7e6; /* Light green background */
+    --button-bg: #0066cc; /* Button background color */
+    --button-text: #fff; /* Button text color */
+    --text-color: black; /* Main text color */
+    --header-bg: #005bb5; /* Dark blue for header */
+    --error-bg: #ffcccc; /* Light red for error messages */
+  }
+  
+  /* Body */
+  body {
+    background-color: var(--background-color);
+    color: black ;
+    padding: 20px;
+  }
+  
+  /* Header */
+  h1, h2, h3 {
+    color: var(--primary-blue);
+  }
+  
+  button {
+    background-color: var(--button-bg);
+    color: var(--button-text);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: var(--dark-blue);
+    
+  }
+  
+  /* Form Inputs */
+  input[type="number"] {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    max-width: 300px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: black;
+  }
+  
+  input[type="number"]:focus {
+    border-color: var(--primary-blue);
+    outline: none;
+  }
+  
+  /* EMI Form */
+  h2 {
+    color: var(--primary-blue);
+  }
+  
+  h3 {
+    color: var(--dark-blue);
+  }
+  
+  /* 404 Page */
+  h1 {
+    color: var(--dark-blue);
+    text-align: center;
+  }
+  
+  p {
+    text-align: center;
+    color: var(--text-color);
+  }
+  

@@ -23,10 +23,14 @@ Where:
 - `R` = Monthly interest rate (annual / 12 / 100)
 - `N` = Loan tenure in months
 
+## Live Demo
+You can view the live demo of this project here: [Live Demo](https://loan-calculator-self-iota.vercel.app/)
+
+
 ## 🛠️ Setup Instructions
 ```bash
 # Clone the repo
-git clone https://github.com//emi-calculator
+git clone https://github.com/Rishabh087/Loan-calculator
 cd emi-calculator
 
 # Install dependencies
